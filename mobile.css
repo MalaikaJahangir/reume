@@ -1,0 +1,145 @@
+@media screen and (max-width: 600px) {
+    :root {
+        --mainColor: orangered;
+        --heading-font: Arial, Helvetica, sans-serif;
+        --nav-font: "Poppins", sans-serif;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .image-main {
+        height: auto !important;
+    }
+
+    .collapse {
+        position: absolute;
+        top: 100%; /* Below the navbar */
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding-right: 27%;
+        overflow: hidden;
+        background-color: black; /* Match the navbar background */
+        z-index: 1; /* Ensure it appears above other content */
+        transition: all 0.3s ease-in-out; /* Smooth transition */
+    }
+
+    .home-h1 {
+        text-align: center;
+    }
+
+    .social-links a{
+        text-decoration: none;
+        margin: 8px;
+        width: 100%;
+    }
+    .social-links a i {
+        color: #ffffff;
+        background-color: var(--mainColor);
+        font-size: 18px;
+        border: 2px solid var(--mainColor);
+        border-radius: 100%;
+        box-shadow: 0 0 8px var(--mainColor);
+        padding: 8px;
+    }
+    .social-links a i:hover {
+        color: #fff;
+        background-color: transparent;
+        animation: animate 1.5s ease-in-out;
+        box-shadow: 0 0 10px var(--mainColor);
+    }
+
+    .services h1 {
+        color: var(--mainColor);
+        font-family: var(--heading-font);
+    }
+   
+    .card {
+        border: 8px solid var(--mainColor);
+        margin-left: -30px;
+        margin-right: -30px;
+        height: 80vh;
+    }
+
+   .box-1-a p {
+    text-align: center !important;
+   }
+   .des-skills {
+    text-align: justify;
+    letter-spacing: 2px !important;
+   }
+   .allskillslist {
+    margin-top: -5% !important;
+   }
+
+   /* contact section */
+   .bg-contact {
+    width: 100% !important;
+    max-width: 300px;
+    height: 100vh;
+    border-radius: 10%;
+   }
+.contact-sec h5 {
+    letter-spacing: 1px;
+    font-family: monospace;
+    text-align: center;
+    color: #ffffff50 !important;
+    font-size: 16px;
+}
+.middle-contact-sec h1 {
+    font-family: var(--nav-font);
+    font-size: 20px;
+}
+.form-label {
+    font-size: 18px !important;
+    width: 300px;
+}
+.submit-btn {
+    background-color: var(--mainColor);
+    color: #fff;
+    margin-left: 80px;
+
+}
+
+.contact-sec input , select {
+    width: 200px !important;
+    margin-left: 12px;
+}
+.middle-contact-sec {
+    margin-top: 2% !important;
+}
+
+
+.form-contact {
+    margin-left: 2% !important;
+    margin-top: -4% !important;
+}
+
+.submit-btn:hover { 
+    background-color: var(--mainColor);
+    box-shadow: 0 0 20px var(--mainColor);
+    color: #fff;
+    text-shadow: 0 0 10px black;
+}
+
+/* Footer */
+.footer {
+    background-color: rgba(255, 68, 0, 0.541);
+    width: 370px !important;
+}
+.footer-elements h6 {
+    margin-left: 5%;
+    width: 100%;
+}
+.footer-links {
+    margin-left: 7%;
+}
+.footer-links a {
+    margin-left: 10px;
+    width: 100%;
+}
+    
+
+}

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome URL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
+    <title>MJ Resume</title>
+</head>
+
+<body>
+    <div class="conatiner">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <div class="ms-3 logo heading"><span>Malaika Jahangir</span></div>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#About">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Home Page Section  -->
+            <section id="homepageSection">
+                <div class="container">
+                    <div class="row justify-content-around">
+                        <div class="col-md-6 profileImage rounded-circle">
+                            <img src="profile.webp" class="img-fluid mt-3 rounded-circle image-main"
+                                alt="Responsive Image">
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class="content text-light">
+                                <h1 data-aos="fade-left" class="home-h1">
+                                    Hey I'm
+                                    <span>Malaika</span>
+                                </h1>
+                                <div class="typewriter">
+                                    I'm <span class="typewriter-text"></span>
+                                </div>
+                                <p class="description"> Known for my deep self-awareness and unique perspective,I am a
+                                    Copywriter as
+                                    well as an accomplished programmer with a passion for Python and Web development.
+                                </p>
+                                <div class="social-links">
+                                    <a href="">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                    <div class="hiremeBtn mt-4">
+                                        <button class="btn rounded-pill btn-hire text-light fw-semibold">Hire
+                                            me</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Section -->
+            <section>
+                <div class="container about">
+                    <h1 id="About" class="mt-5 pt-2 text-center mb-5 pb-2">About</h1>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-evenly aboutside">
+                        <div class="col-md-6">
+                            <h1 class="text-light">About Me</h1>
+                            <p class="text-light des-skills">Myself Malaika Jahangir , born on 19th April 2006,I am a
+                                passionate and dedicated programmer with a strong charisma to always keeps on moving and
+                                improving.
+                                I enjoy crafting responsive and visually appealing web applications and have
+                                experience using tools for streamlined UI/UX design. My commitment
+                                to learning enables me to adapt quickly and improve my skill set, ensuring high-quality
+                                results.I explore Marine life and Jurrasic era history as a hobby.</p>
+                        </div>
+
+
+                        <div class="col-md-6 aboutImage rounded-circle">
+                            <div class="row">
+                                <div class="col-md-6"><img src="about-img1.jpg"
+                                        class="img-fluid mt-3 rounded-circle img-1" alt="Responsive Image"></div>
+                                <div class="col-md-6"><img src="about-img2.jpg"
+                                        class="img-fluid mt-3 rounded-circle img-2" alt="Responsive Image"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Services -->
+            <section>
+                <div class="container services">
+                    <h1 id="Services" class="mt-5 pt-2 text-center mb-5 pb-2">Services</h1>
+                </div>
+                <div class="row gx-4 gy-4 ms-5 me-5 mt-5"> <!-- Adjusts horizontal and vertical spacing -->
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card bg-light custom-card box-1-a pt-3">
+                            <div class="icon-inside">
+                                <i class="fa fa-code fa-5x"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Web Development</h5>
+                                <p class="card-text">Build robust and dynamic websites tailored to your needs using the
+                                    latest web technologies.</p>
+                            </div>
+                            <button class="btn ms-5 pt-2 pb-2 me-5 rounded-pill bg-dark text-light mb-3">Learn
+                                More</button>
+                        </div>
+                    </div>
+                    <!-- Repeat for other cards -->
+                    <div class="col-md-4">
+                        <div class="card bg-light custom-card box-1-a pt-3">
+                            <div class="icon-inside">
+                                <i class="fa fa-file-code fa-5x"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Web Designing</h5>
+                                <p class="card-text">Create visually stunning and user-friendly web designs that
+                                    captivate your audience.</p>
+                            </div>
+                            <button class="btn ms-5 pt-2 pb-2 me-5 rounded-pill bg-dark text-light mb-3">Learn
+                                More</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-light custom-card box-1-a pt-3">
+                            <div class="icon-inside">
+                                <i class="fa fa-external-link-alt fa-5x"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">UI/UX Designing</h5>
+                                <p class="card-text">Enhance user experience with intuitive and engaging interfaces for
+                                    web and mobile apps.</p>
+                            </div>
+                            <button class="btn ms-5 pt-2 pb-2 me-5 rounded-pill bg-dark text-light mb-3">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd Row -->
+                <div class="row gx-4 gy-5 ms-5 me-5 mt-3">
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card bg-light custom-card box-1-a pt-3">
+                            <div class="icon-inside">
+                                <i class="fa fa-user-secret fa-5x"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Web Security</h5>
+                                <p class="card-text">Secure your online presence with advanced security solutions and
+                                    risk mitigation strategies</p>
+                            </div>
+                            <button class="btn ms-5 pt-2 pb-2 me-5 rounded-pill bg-dark text-light mb-3">Learn
+                                More</button>
+                        </div>
+                    </div>
+                    <!-- Repeat for other cards -->
+                    <div class="col-md-4">
+                        <div class="card bg-light custom-card box-1-a pt-3">
+                            <div class="icon-inside">
+                                <i class="fa fa-envelope-open fa-5x"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Copywriting</h5>
+                                <p class="card-text">Drive engagement with impactful, targeted email campaigns , IG
+                                    Captions and FB Ads.</p>
+                            </div>
+                            <button class="btn ms-5 pt-2 pb-2 me-5 rounded-pill bg-dark text-light mb-3">Learn
+                                More</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-light custom-card box-1-a pt-3">
+                            <div class="icon-inside">
+                                <i class="fas fa-laptop fa-5x"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">SEO & Marketing</h5>
+                                <p class="card-text">Optimize your content for search engines that drives traffic and
+                                    sales on demand.</p>
+                            </div>
+                            <button class="btn ms-5 pt-2 pb-2 me-5 rounded-pill bg-dark text-light mb-3">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section>
+                <div class="container skills">
+                    <h1 id="Skills" class="mt-5 pt-2 text-center mb-5 pb-2">Skills</h1>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-evenly skillside">
+                        <div class="col-md-6">
+                            <h1 class="text-light">Our Skills Reflects Our Knowledge</h1>
+                            <p class="text-light des-skills">I am a passionate and dedicated developer with a strong
+                                foundation in Python, HTML, CSS, JavaScript, and PHP, constantly striving to enhance my
+                                expertise. I enjoy crafting responsive and visually appealing web applications and have
+                                experience using tools like Canva and Figma for streamlined UI/UX design. My commitment
+                                to learning enables me to adapt quickly and improve my skill set, ensuring high-quality
+                                results. Whether coding complex logic or designing user-centric interfaces, I bring
+                                creativity and efficiency to every project</p>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="allskills">
+                                <div class="row allskillslist mt-3 pt-3">
+                                    <div class="col-md-6">
+                                        <h5 class="mt-4">HTML <span>90%</span></h5>
+                                        <h5 class="mt-5">CSS <span>87%</span></h5>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="mt-4">JAVASCRIPT <span>70%</span></h5>
+                                        <h5 class="mt-5">PHP Laravel <span>69%</span></h5>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="mt-4">FIGMA <span>70%</span></h5>
+                                        <h5 class="mt-5">PYTHON <span>88%</span></h5>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="mt-4">CANVA <span>70%</span></h5>
+                                        <h5 class="mt-5">NODE.Js <span>73%</span></h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- Contact Section -->
+            <section>
+                <div class="container contact">
+                    <h1 id="contact" class="mt-5 pt-2 text-center mb-5 pb-2">Contact Me</h1>
+                </div>
+                <div class="container bg-contact contact-sec">
+                    <h5 class="text-light pt-1">Malaika Jahangir</h5>
+                    <div class="middle-contact-sec mt-5">
+                        <h1 class=" text-center text-light">Let Us Know How Can We Work Together</h1>
+
+                        <form class="mt-3 w-50 m-auto form-contact">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="role" class="form-label">Best Role</label>
+                                <input type="text" class="form-control" id="role" placeholder="Enter your best role">
+                            </div>
+                            <div class="mb-3">
+                                <label for="service" class="form-label">Service You Are Interested In</label>
+                                <select class="form-select" id="service">
+                                    <option selected>Choose...</option>
+                                    <option value="1">Web Development</option>
+                                    <option value="2">Web Designing</option>
+                                    <option value="3">UI/UX Design</option>
+                                    <option value="4">SEO Services</option>
+                                    <option value="5">Copywriting Services</option>
+                                    <option value="6">Multiple Services</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn submit-btn">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+<br>
+<br>
+        <hr style="color: beige;">
+
+        <footer class="footer container-fluid mt-5 pt-3">
+            <div class="row footer-elements">
+                <div class="col-md-6">
+                    <h6 class="mt-1"><span>&copy; malaikajahangirofficial.co</span></h6>
+                </div>
+                <div class="col-md-5">
+                    <div class="footer-links">
+                        <a href="">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

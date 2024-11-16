@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --mainColor: orangered;
+    --heading-font: Arial, Helvetica, sans-serif;
+    --nav-font: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: black;
+}
+
+.heading {
+    color: white;
+    letter-spacing: 2px;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: 25px;
+    font-stretch: expanded;
+}
+
+.heading span {
+    color: var(--mainColor);
+    text-shadow: 0 0 10px var(--mainColor);
+}
+
+.heading:hover {
+    color: var(--mainColor);
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.navbar-toggler-icon {
+    background-color: var(--mainColor) !important;
+    border-radius: 3px;
+}
+
+.navbar-nav {
+    margin-left: 43%;
+    font-family: var(--nav-font);
+}
+
+.navbar-nav .nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-item .nav-link.active {
+    color: var(--mainColor) !important;
+    text-decoration: underline;
+    text-underline-offset: 0.75em;
+}
+
+.nav-item .nav-link {
+    color: #ffffff !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: var(--mainColor) !important;
+    text-decoration: underline;
+    text-underline-offset: 0.75em;
+    cursor: pointer;
+}
+
+/* Main page */
+.profileImage {
+    width: 520px;
+    overflow: hidden;
+    box-shadow: 0 0 50px var(--mainColor);
+}
+
+.profileImage img {
+    width: 100% !important;
+}
+
+.profileImage:hover {
+    animation: animate 1.5s ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        scale: 1.05;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+.typewriter {
+    display: inline-block;
+    overflow: hidden;
+    color: aqua;
+    text-shadow: 0 0 10px aqua;
+    border-right: .15em solid orange;
+    /* Blinking cursor */
+    white-space: nowrap;
+    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+.home-h1 {
+    font-family: var(--heading-font);
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+.home-h1 span {
+    font-family: monospace;
+    color: var(--mainColor);
+    letter-spacing: 1px;
+    text-shadow: 0 0 20px var(--mainColor);
+    font-size: 70px;
+}
+
+.description {
+    text-align: justify;
+    letter-spacing: 1.5px;
+    line-height: 2.5em;
+    font-family: var(--nav-font);
+}
+
+.social-links a {
+    text-decoration: none;
+    margin: 8px;
+    width: 100%;
+}
+
+.social-links a i {
+    color: #ffffff;
+    background-color: var(--mainColor);
+    font-size: 20px;
+    border: 2px solid var(--mainColor);
+    border-radius: 100%;
+    box-shadow: 0 0 8px var(--mainColor);
+    padding: 15px;
+}
+
+.social-links a i:hover {
+    color: #fff;
+    background-color: transparent;
+    animation: animate 1.5s ease-in-out;
+    box-shadow: 0 0 10px var(--mainColor);
+}
+
+.hiremeBtn .btn-hire {
+    background-color: var(--mainColor);
+    box-shadow: 0 0 10px var(--mainColor);
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid orange;
+}
+
+.hiremeBtn .btn-hire:hover {
+    animation: animate 1.5s ease-in-out;
+    text-shadow: 0 0 5px black;
+    box-shadow: 0 0 11px var(--mainColor);
+}
+
+/* About Us section */
+.about {
+    background: linear-gradient(55deg, transparent, rgba(255, 68, 0, 0.438), transparent);
+    margin-top: 10% !important;
+}
+.about h1 {
+    color: var(--mainColor);
+    font-family: var(--heading-font);
+    text-shadow: 0 0 20px black;
+    letter-spacing: 1px;
+}
+.aboutImage {
+    width: 520px;
+    overflow: hidden;
+}
+
+.aboutImage img {
+    width: 100% !important;
+    border: 5px solid var(--mainColor);
+    box-shadow: 0 0 10px var(--mainColor);
+}
+.img-1 {
+    margin-left: 13%;
+}
+.img-2 {
+    margin-top: 25% !important;
+    margin-left: -12% !important;
+}
+.aboutImage:hover {
+    animation: animate 1.5s ease-in-out;
+}
+.aboutside {
+    margin-top: 10% !important;
+    margin-bottom: -3% !important;
+}
+.aboutside h1 {
+    letter-spacing: 1px;
+    font-family: var(--nav-font);
+}
+
+
+/* Services Section */
+.services {
+    background: linear-gradient(55deg, transparent, rgba(255, 68, 0, 0.438), transparent);
+    margin-top: 10% !important;
+}
+.services h1 {
+    color: var(--mainColor);
+    font-family: var(--heading-font);
+    text-shadow: 0 0 20px black;
+    letter-spacing: 1px;
+}
+
+.custom-card {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Ensures the body takes up available space */
+}
+
+.row.gx-1 {
+    --bs-gutter-x: 5px;
+}
+
+.row.gy-4 {
+    --bs-gutter-y: 20px;
+}
+.icon-inside {
+    margin: auto;
+}
+.icon-inside i {
+    color: var(--mainColor);
+    text-shadow: 0 0 3px black;
+}
+
+.card-body h5 {
+    font-family: var(--nav-font);
+    font-size: 26px;
+}
+.box-1-a {
+    box-shadow: 0 0 10px var(--mainColor);
+    background: linear-gradient(to top, transparent 50%, var(--mainColor) 50%);
+    background-size: 100% 201%;
+    background-position: 0 100%;
+    transition: background-position 0.3s ease-in-out;
+}
+
+/* Change the icon color when hovering over the parent */
+.box-1-a:hover .icon-inside i {
+    color: #fff; /* Change to the color you want when hovering */
+}
+
+.box-1-a:hover h5 {
+    font-weight: bold;
+}
+
+.box-1-a p {
+    font-family: var(--nav-font);
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    margin-bottom: auto;
+}
+
+.box-1-a:hover p {
+    color: #fff;
+}
+
+.box-1-a button:hover {
+    box-shadow: 0 0 10px var(--mainColor);
+    background-color: white !important;
+    color: var(--mainColor) !important;
+    font-family: var(--nav-font);
+    font-weight: 700;
+}
+.box-1-a:hover button {
+    box-shadow: 0 0 5px black;
+    margin-top: auto;
+}
+
+.box-1-a:hover {
+    background-position: 0 0;
+    cursor: pointer;
+}
+/* Skills Section */
+.skills {
+    background: linear-gradient(55deg, transparent, rgba(255, 68, 0, 0.438), transparent);
+    margin-top: 6% !important;
+}
+.skills h1 {
+    color: var(--mainColor);
+    font-family: var(--heading-font);
+    text-shadow: 0 0 20px black;
+    letter-spacing: 1px;
+}
+.allskillslist h5 {
+    font-size: 30px;
+    text-shadow: 0 0 20px var(--mainColor);
+    color: var(--mainColor);
+    letter-spacing: 1px;
+}
+.allskillslist h5 span {
+    font-size: 45px;
+    font-family: monospace;
+    text-shadow: 0 0 30px var(--mainColor);
+}
+.des-skills {
+    font-family: var(--nav-font);
+    letter-spacing: 1px;
+    line-height: 2em;
+    text-align: justify;
+}
+.skillside h1 {
+    letter-spacing: 1px;
+    font-family: var(--nav-font);
+}
+/* Contact Me Section */
+.contact {
+    background: linear-gradient(55deg, transparent, rgba(255, 68, 0, 0.438), transparent);
+    margin-top: 6% !important;
+}
+.contact h1 {
+    color: var(--mainColor);
+    font-family: var(--heading-font);
+    text-shadow: 0 0 20px black;
+    letter-spacing: 1px;
+}
+.bg-contact {
+    background-image: url(contact-bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.678);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.contact-sec h5 {
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+.middle-contact-sec h1 {
+    font-family: var(--nav-font);
+}
+.form-label {
+    color: #fff;
+    font-size: 22px;
+    text-shadow: 0 0 10px black;
+    font-family: var(--nav-font);
+    font-weight: 700;
+}
+.submit-btn {
+    background-color: var(--mainColor);
+    color: #fff;
+
+}
+.submit-btn:hover { 
+    background-color: var(--mainColor);
+    box-shadow: 0 0 20px var(--mainColor);
+    color: #fff;
+    text-shadow: 0 0 10px black;
+}
+/* Footer Section */
+.footer {
+    background-color: rgba(255, 68, 0, 0.541);
+}
+.footer .footer-elements {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-elements h6 {
+    color: #fff;
+    font-family: var(--nav-font);
+    letter-spacing: 1px;
+    font-style: italic;
+    text-shadow: 0 0 10px black;
+}
+.footer-links {
+    margin-left: 29%;
+}
+.footer-links a {
+    text-decoration: none;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.footer-links a i {
+    color: #ffffff;
+    background-color: var(--mainColor);
+    font-size: 16px;
+    border: 2px solid var(--mainColor);
+    margin-bottom: 10px;
+    border-radius: 20%;
+    box-shadow: 0 0 8px var(--mainColor);
+    padding: 8px;
+}
+
+.footer-links a i:hover {
+    color: #fff;
+    background-color: transparent;
+    animation: animate 1.5s ease-in-out;
+    box-shadow: 0 0 10px var(--mainColor);
+}
