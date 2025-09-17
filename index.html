@@ -238,25 +238,29 @@
                         <h1 class="text-center text-light">Let Us Know How Can We Work Together</h1>
 
                         <!-- Netlify-enabled form -->
-                        <form name="contact" method="POST" data-netlify="true" class="mt-3 w-50 m-auto form-contact">
-                            <!-- hidden input for Netlify -->
-                            <input type="hidden" name="form-name" value="contact">
+                        <form name="contact" method="POST" data-netlify="true" action="/thank-you"
+                            class="mt-3 w-50 m-auto form-contact">
+                            <!-- Hidden input for Netlify -->
+                            <input type="hidden" name="form-name" value="contact" />
 
                             <div class="mb-3">
                                 <label for="name" class="form-label">Name</label>
                                 <input type="text" class="form-control" id="name" name="name"
                                     placeholder="Enter your name" required>
                             </div>
+
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email Address</label>
                                 <input type="email" class="form-control" id="email" name="email"
                                     placeholder="Enter your email" required>
                             </div>
+
                             <div class="mb-3">
                                 <label for="role" class="form-label">Best Role</label>
                                 <input type="text" class="form-control" id="role" name="role"
                                     placeholder="Enter your best role">
                             </div>
+
                             <div class="mb-3">
                                 <label for="service" class="form-label">Service You Are Interested In</label>
                                 <select class="form-select" id="service" name="service">
@@ -269,11 +273,13 @@
                                     <option value="Multiple Services">Multiple Services</option>
                                 </select>
                             </div>
+
                             <button type="submit" class="btn submit-btn">Submit</button>
                         </form>
                     </div>
                 </div>
             </section>
+
 
         </main>
         <br>
